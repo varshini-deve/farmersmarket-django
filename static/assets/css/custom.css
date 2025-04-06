@@ -1,0 +1,29 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.carouselTicker__list {
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.carouselTicker__item {
+    margin: 0 5px;
+    background-color: #fbb714;
+    color: #fff;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselTicker__item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
